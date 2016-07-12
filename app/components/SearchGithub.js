@@ -15,7 +15,7 @@ class SearchGithub extends React.Component {
             <div className="col-sm-12">
                 <form onSubmit={() => this.handleSubmit()}>
                     <div className="form-group col-sm-7">
-                        <input type="text" className="form-control" placeholder="Search User" ref={(ref) => this.getRef()} />
+                        <input type="text" className="form-control" placeholder="Search User" ref={(ref) => this.getRef(ref)} />
                     </div>
                     <div className="form-group col-sm-5">
                         <button className="btn btn-block btn-primary" type="submit">Search Github</button>

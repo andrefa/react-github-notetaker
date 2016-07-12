@@ -17,7 +17,6 @@ class Profile extends React.Component {
         }
     }
     componentDidMount(){
-
         this.init(this.props.params.username);
     }
     componentWillReceiveProps(nextProps){
